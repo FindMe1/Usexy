@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:baiduadsdk="http://schemas.android.com/apk/res/com.usexy.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/adv_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        >
+
+        <com.baidu.mobads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            baiduadsdk:adId="0"
+            baiduadsdk:adSize="0" >
+        </com.baidu.mobads.AdView>
+    </RelativeLayout>
+
+    <com.usexy.control.XListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adv_lay"
+      	style="@android:anim/accelerate_decelerate_interpolator"
+        android:layout_margin="10dp">
+    </com.usexy.control.XListView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

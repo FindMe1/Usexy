@@ -1,0 +1,37 @@
+# view res/layout/image_detail.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/main.xml #generated:2
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class cn.sharesdk.framework.ShareSDKUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class cn.sharesdk.usexy.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.App { <init>(...); }
+
+# view res/layout/image_detail.xml #generated:51
+# view res/layout/main.xml #generated:15
+-keep class com.baidu.mobads.AdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.baidu.mobads.AppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.usexy.activity.ImageDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.usexy.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.usexy.activity.SplashActivty { <init>(...); }
+
+# view res/layout/main.xml #generated:24
+-keep class com.usexy.control.XListView { <init>(...); }
+
+# view res/layout/imgs_detail_item.xml #generated:7
+-keep class com.usexy.control.ZoomImageView { <init>(...); }
+
